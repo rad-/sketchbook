@@ -119,7 +119,7 @@ void loop(void)
 	if (role == role_ping_out)
 	{
 		// The payload will always be the same, what will change is how much of it we send.
-		static char send_payload[] = "Cantenna Payload Deployment";
+		static char send_payload[] = "Test";
 
 		// First, stop listening so we can talk.
 		radio.stopListening();
